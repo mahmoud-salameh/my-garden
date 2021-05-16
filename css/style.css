@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300;1,400;1,500;1,700&display=swap');
+
+
+
+.nav {
+    font-family: 'Roboto', sans-serif;
+
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'menu main main main right right'
+      'menu footer footer footer footer footer';
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+
+}
+
+.form1 {
+    color:189ad3 ;
+    background-color:#a10909 ;
+}
+
+nav h1{
+
+    font-family: 'Roboto', sans-serif;
+    float: right;
+}
+
+.submit {
+    color: #a10909;
+}
+
+th {
+    color: #1ebbd7;
+}
